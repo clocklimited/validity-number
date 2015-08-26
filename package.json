@@ -1,6 +1,6 @@
 {
   "name": "validity-float",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validity style validator to ensure a property is a float",
   "main": "validator.js",
   "scripts": {

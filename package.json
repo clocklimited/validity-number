@@ -1,27 +1,28 @@
 {
-  "name": "validity-float",
+  "name": "validity-number",
   "version": "1.0.1",
-  "description": "Validity style validator to ensure a property is a float",
+  "description": "Validity style validator to ensure a property is a float or an integer",
   "main": "validator.js",
   "scripts": {
     "test": "istanbul test ./node_modules/.bin/_mocha -- -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maael/validity-float.git"
+    "url": "https://github.com/maael/validity-number.git"
   },
   "keywords": [
     "validity",
     "validation",
     "number",
+    "integer"
     "float"
   ],
   "author": "Matthew Elphick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maael/validity-float/issues"
+    "url": "https://github.com/maael/validity-number/issues"
   },
-  "homepage": "https://github.com/maael/validity-float",
+  "homepage": "https://github.com/maael/validity-number",
   "devDependencies": {
     "istanbul": "^0.3.18",
     "mocha": "^2.2.5"

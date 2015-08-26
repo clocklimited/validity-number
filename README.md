@@ -1,11 +1,11 @@
-# validity-float
+# validity-number
 
-Validity style validator to ensure a property is a float
+Validity style validator to ensure a property is a float or an integer
 
 ## Installation
 
 ```
-npm install validity-float --save
+npm install validity-number --save
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm install validity-float --save
 Below is a simple example for usage with schemata and save:
 
 ``` js
-var validateFloat = require('validity-float')
+var validateNumber = require('validity-number')
   , schemata = require('schemata')
 
 var schema = schemata(
     { value:
       { type: Number
-      , validators: { all: [ validateFloat ] }
+      , validators: { all: [ validateNumber ] }
       }
     })
 ```

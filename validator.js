@@ -9,7 +9,7 @@ function numberValidator(propertyName, errorName, object, callback) {
     check = Number(value).toString() === value.toString()
   }
 
-  error = (check) ? null : errorName + ' must be a float'
+  error = (check) ? null : errorName + ' must be a number'
 
   callback(null, error)
 }

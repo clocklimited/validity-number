@@ -22,7 +22,7 @@
     "url": "https://github.com/maael/validity-float/issues"
   },
   "homepage": "https://github.com/maael/validity-float",
-  "dependencies": {
+  "devDependencies": {
     "istanbul": "^0.3.18",
     "mocha": "^2.2.5"
   }

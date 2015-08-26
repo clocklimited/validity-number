@@ -1,6 +1,6 @@
-module.exports = floatValidator
+module.exports = numberValidator
 
-function floatValidator(propertyName, errorName, object, callback) {
+function numberValidator(propertyName, errorName, object, callback) {
   var value = object[propertyName]
     , check = value !== null && value !== undefined
     , error

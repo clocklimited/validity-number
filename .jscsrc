@@ -1,0 +1,79 @@
+{
+  "excludeFiles": [
+    "node_modules/**",
+    "coverage",
+    "coverage/*",
+    "admin/static-file-map.json",
+    "admin/config.json",
+    "admin/source/js/app/components.js",
+    "admin/assets/js/lib/*",
+    "admin/assets/js/build/*",
+    "admin/source/js/app/lib/vendor/*",
+    "site/static-file-map.json",
+    "site/assets/js/lib/vendor",
+    "site/assets/js/app/lib/vendor",
+    "site/assets/js/build",
+    "support/deploy"
+  ],
+  "requireLineFeedAtFileEnd": true,
+  "disallowMultipleLineBreaks": true,
+  "requireMultipleVarDecl": true,
+  "disallowEmptyBlocks": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowCommaBeforeLineBreak": true,
+  "disallowTrailingWhitespace": true,
+  "requireCapitalizedConstructors": true,
+  "requireSpacesInsideObjectBrackets": "all",
+  "requireSpacesInsideArrayBrackets": "all",
+  "validateLineBreaks": "LF",
+  "requireSpaceBeforeBinaryOperators": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!=="
+  ],
+  "requireSpaceAfterBinaryOperators": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!=="
+  ],
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "try",
+    "catch"
+  ],
+  "disallowSpaceAfterPrefixUnaryOperators": [
+    "++",
+    "--",
+    "+",
+    "-",
+    "~",
+    "!"
+  ],
+  "disallowSpaceBeforePostfixUnaryOperators": [
+    "++",
+    "--"
+  ],
+  "disallowKeywordsOnNewLine": [
+    "else"
+  ],
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  }
+}

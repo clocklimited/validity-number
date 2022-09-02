@@ -80,4 +80,11 @@ describe('Number Validator', function () {
     })
   })
 
+  it('should output an error for values which parseFloat would return a number for', function (done) {
+    numberValidator('value', 'Value', { value: '0hello' }, function (err, errors) {
+      assert.equal(errors, 'Value must be a number', 'No error was outputted')
+      done()
+    })
+  })
+
 })

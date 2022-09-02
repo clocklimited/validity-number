@@ -6,7 +6,7 @@ function numberValidator(propertyName, errorName, object, callback) {
     , error
 
   if (check) {
-    check = Number(value).toString() === value.toString()
+    check = !isNaN(parseFloat(value.toString()))
   }
 
   error = (check) ? null : errorName + ' must be a number'

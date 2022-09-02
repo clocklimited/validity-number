@@ -25,7 +25,15 @@ describe('Number Validator', function () {
 
   it('should allow integer strings', function (done) {
     numberValidator('value', 'Value', { value: '10' }, function (err, errors) {
-      assert.equal(errors, undefined, 'An error was outputted')
+      assert.equal(errors, undefined, 'an error was outputted')
+      done()
+    })
+  })
+
+  // test for strings like 1.0, 2.0, 3.0000, 4.0000
+  it('should allow strings of numbers which end in /\.0*/', function (done) {
+    numberValidator('value', 'Value', { value: '1.0000' }, function (err, errors) {
+      assert.equal(errors, undefined, 'an error was outputted')
       done()
     })
   })
